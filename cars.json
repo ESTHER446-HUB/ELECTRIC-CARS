@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Tesla Model 3",
+    "range": 358,
+    "price": 70996,
+    "image": "https://example.com/model3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nissan Leaf",
+    "range": 226,
+    "price": 30400,
+    "image": "https://example.com/leaf.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Chevy Bolt",
+    "range": 259,
+    "price": 66995,
+    "image": "https://example.com/bolt.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ford Mustang Mach-E",
+    "range": 312,
+    "price": 50995,
+    "image": "https://example.com/mach-e.jpg"
+  },
+  {
+    "id": 5,
+    "name": "BMW i4",
+    "range": 450,
+    "price": 83900,
+    "image": "https://example.com/i4.jpg"
+  }
+
+
+  
+]
