@@ -8,14 +8,14 @@ document.addEventListener("DOMContentLoaded", () => {
   let favorites = new Set();
 
   // Fetch car data from local JSON or public API
-  fetch("cars.json")
+  fetch("./cars.json")
     .then(res => res.json())
     .then(data => {
       carsData = data;
       renderCars(carsData);
     })
     .catch(err => console.error("Error fetching cars:", err));
-
+https://dashboard.render.com/web/srv-d3bekiali9vc738jnk00/deploys/dep-d3bekiqli9vc738jnk90
   // ===== Event Listeners =====
   // 1. Search filter
   searchInput.addEventListener("input", e => {
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>Range: ${car.range} miles</p>
         <p>Price: $${car.price.toLocaleString()}</p>
         <button class="fav-btn" data-id="${car.id}">
-          ${favorites.has(car.id) ? " Favorited" : "Add to Favorites"}
-        </button>v 
+          ${favorites.has(car.id) ? "Favorited" : "Add to Favorites"}
+        </button>
       `;
       carList.appendChild(card);
     });
